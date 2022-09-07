@@ -42,7 +42,7 @@ use function is_string;
  *
  * @implements ArrayAccess<string, mixed>
  */
-class Twig implements ArrayAccess
+class Twig implements ArrayAccess, TwigInterface
 {
     /**
      * Twig loader
